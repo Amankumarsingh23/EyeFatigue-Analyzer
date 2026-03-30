@@ -1,0 +1,42 @@
+{
+  "models": {
+    "random_forest": {
+      "cv_mean": 1.0,
+      "cv_std": 0.0,
+      "accuracy": 1.0,
+      "roc_auc": 1.0
+    },
+    "logistic_regression": {
+      "cv_mean": 1.0,
+      "cv_std": 0.0,
+      "accuracy": 1.0,
+      "roc_auc": 1.0
+    },
+    "svm": {
+      "cv_mean": 1.0,
+      "cv_std": 0.0,
+      "accuracy": 1.0,
+      "roc_auc": 1.0
+    }
+  },
+  "feature_importances": {
+    "fixation_mean": 0.15188558697005494,
+    "blink_mean": 0.14304375791796997,
+    "pupil_mean": 0.14030577471331993,
+    "saccade_mean": 0.12295738442516037,
+    "blink_pupil_ratio": 0.115284784128073,
+    "saccade_min": 0.09016786740887017,
+    "pupil_min": 0.06755258415141992,
+    "blink_max": 0.06233091971443144,
+    "fixation_max": 0.05268034051565326,
+    "gaze_dispersion_y": 0.022591387301764576,
+    "gaze_path_length": 0.01699733174611244,
+    "gaze_dispersion_x": 0.01187034778452092,
+    "fixation_entropy": 0.0023027463965101577,
+    "pupil_std": 2.9186826138981767e-05,
+    "pupil_trend": 0.0,
+    "blink_volatility": 0.0,
+    "saccade_std": 0.0,
+    "fixation_std": 0.0
+  }
+}
