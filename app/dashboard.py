@@ -1,3 +1,5 @@
+from app.startup import run_pipeline
+run_pipeline()
 import streamlit as st
 import pandas as pd
 import numpy as np
