@@ -1,0 +1,74 @@
+{
+  "pupil_mean": {
+    "f_stat": 233230.193,
+    "p_value": 0.0
+  },
+  "pupil_std": {
+    "f_stat": 0.594,
+    "p_value": 0.552376
+  },
+  "pupil_min": {
+    "f_stat": 17449.99,
+    "p_value": 0.0
+  },
+  "pupil_trend": {
+    "f_stat": 4.906,
+    "p_value": 0.007523
+  },
+  "blink_mean": {
+    "f_stat": 153851.335,
+    "p_value": 0.0
+  },
+  "blink_max": {
+    "f_stat": 13157.374,
+    "p_value": 0.0
+  },
+  "blink_volatility": {
+    "f_stat": 2.341,
+    "p_value": 0.096561
+  },
+  "saccade_mean": {
+    "f_stat": 234632.68,
+    "p_value": 0.0
+  },
+  "saccade_min": {
+    "f_stat": 19385.389,
+    "p_value": 0.0
+  },
+  "saccade_std": {
+    "f_stat": 1.442,
+    "p_value": 0.236863
+  },
+  "fixation_mean": {
+    "f_stat": 227554.97,
+    "p_value": 0.0
+  },
+  "fixation_max": {
+    "f_stat": 19709.789,
+    "p_value": 0.0
+  },
+  "fixation_std": {
+    "f_stat": 0.379,
+    "p_value": 0.684531
+  },
+  "gaze_dispersion_x": {
+    "f_stat": 8326.203,
+    "p_value": 0.0
+  },
+  "gaze_dispersion_y": {
+    "f_stat": 9712.361,
+    "p_value": 0.0
+  },
+  "gaze_path_length": {
+    "f_stat": 11127.479,
+    "p_value": 0.0
+  },
+  "blink_pupil_ratio": {
+    "f_stat": 282082.296,
+    "p_value": 0.0
+  },
+  "fixation_entropy": {
+    "f_stat": 3858.176,
+    "p_value": 0.0
+  }
+}
