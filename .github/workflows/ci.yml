@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install numpy pandas scikit-learn scipy plotly streamlit joblib pytest
+      - name: Generate data
+        run: python data/generate.py
+      - name: Engineer features
+        run: python features/engineer.py
+      - name: Train models
+        run: python models/train.py
+      - name: Run stats
+        run: python analysis/stats.py
+      - name: Run tests
+        run: pytest tests/ -v
+```
+
+**`requirements.txt`** — add this for Streamlit Cloud:
+```
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+matplotlib==3.8.4
+seaborn==0.13.2
+plotly==5.22.0
+streamlit==1.35.0
+scipy==1.13.0
+joblib==1.4.2
+pytest==8.2.0
